@@ -5,5 +5,4 @@ node_modules
 /package
 .vscode
 nudes/
-data/
 pnpm-lock.yaml

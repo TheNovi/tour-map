@@ -1,8 +1,11 @@
 <script lang="ts">
+	import Bottom from '$lib/Bottom.svelte'
+	import Catalog from '$lib/Catalog.svelte'
 	import Map from '$lib/Map.svelte'
 
 	//TODO robots.txt
 	//TODO i18n
+	//TODO Mobile view
 
 	const title = 'DeeThane Tour 2022'
 	const desc = 'Interaktivní mapa pro 2022 tour'
@@ -32,4 +35,8 @@
 	<meta property="og:description" content={desc} />
 </svelte:head>
 
-<Map />
+<div class="flex flex-col h-full">
+	<Map class="flex-grow" />
+	<Bottom />
+</div>
+<Catalog />

@@ -3,7 +3,7 @@
 	import Marker from './Marker.svelte'
 </script>
 
-<div class="flex flex-col shrink-0 items-center justify-center h-full">
+<div class={`flex flex-col shrink-0 items-center justify-center ${$$restProps.class}`}>
 	<div class="relative overflow-visible">
 		<!-- <Marker city="0,0" position={[0, 0]} />
 		<Marker city="Top" position={[35, 5]} />

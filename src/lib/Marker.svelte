@@ -79,10 +79,10 @@
 {/if}
 
 <style scoped lang="postcss">
-	.button {
+	/* .button {
 		@apply text-white no-underline;
 		@apply flex-grow text-center bg-blue-800 rounded-md shadow-lg p-1 my-2;
-	}
+	} */
 
 	.icon {
 		@apply text-lg mr-2;

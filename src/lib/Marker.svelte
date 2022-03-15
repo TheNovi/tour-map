@@ -71,7 +71,7 @@
 			</a>
 		</div>
 		<div class="flex">
-			<a href={`${place.ticket}`} class="button" target="_blank" rel="noopener noreferrer">
+			<a href={`https://${place.ticket}`} class="button" target="_blank" rel="noopener noreferrer">
 				Kup lístek
 			</a>
 		</div>

@@ -2,6 +2,7 @@
 	import Map from '$lib/Map.svelte'
 
 	//TODO robots.txt
+	//TODO i18n
 
 	const title = 'DeeThane Tour 2022'
 	const desc = 'Interaktivní mapa pro 2022 tour'

@@ -7,7 +7,7 @@ export default {
 			city: 'Praha',
 			date: '29.5.2022 19:00',
 			fb: '1ENNmAGt0',
-			ticket: 'google.com',
+			ticket: 'google.com/search?q=Gde+tour',
 			club: {
 				name: 'Lucerna Music Bar',
 				link: 'musicbar.cz',
@@ -20,7 +20,7 @@ export default {
 			city: 'Edge',
 			date: '29.5.2022 19:00',
 			fb: '1ENNmAGt0',
-			ticket: 'google.com',
+			ticket: 'google.com/search?q=Gde+tour',
 			club: {
 				name: 'Music at the Edge',
 				link: 'musicbar.cz',

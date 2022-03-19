@@ -35,8 +35,8 @@
 	<meta property="og:description" content={desc} />
 </svelte:head>
 
-<div class="flex flex-col h-full">
-	<Map class="flex-grow" />
+<div class="hidden md:flex flex-col h-full">
+	<Map class="flex-grow text-xs px-24 lg:text-base lg:px-14" />
 	<Bottom />
 </div>
 <Catalog />

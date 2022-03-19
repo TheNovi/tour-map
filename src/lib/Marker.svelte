@@ -18,7 +18,7 @@
 </script>
 
 <div
-	class="absolute p-5 text-lg"
+	class="absolute p-4 text-lg whitespace-nowrap"
 	style="left: {place.position.x}%; top: {place.position.y}%;"
 	on:mouseenter={mouseenter}
 >
@@ -30,7 +30,7 @@
 		on:mouseenter={mouseenter}
 		on:mouseleave={mouseleave}
 		transition:fade
-		class="absolute bg-pink-900 p-5 shadow-xl whitespace-nowrap z-10"
+		class="absolute bg-pink-900 p-4 shadow-lg whitespace-nowrap z-10"
 		style="left: {Math.min(place.position.x, 100)}%; top: {place.position.y}%;"
 	>
 		<div class="flex justify-between text-lg">

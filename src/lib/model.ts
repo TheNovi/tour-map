@@ -5,7 +5,7 @@ export type Place = {
 	ticket: string
 	club: {
 		name: string
-		img?: string
+		http?: boolean
 		link: string
 		address: string
 		map: string

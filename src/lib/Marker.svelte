@@ -30,7 +30,7 @@
 		on:mouseenter={mouseenter}
 		on:mouseleave={mouseleave}
 		transition:fade
-		class="absolute bg-pink-900 p-5 shadow-xl whitespace-nowrap"
+		class="absolute bg-pink-900 p-5 shadow-xl whitespace-nowrap z-10"
 		style="left: {Math.min(place.position.x, 100)}%; top: {place.position.y}%;"
 	>
 		<div class="flex justify-between text-lg">
@@ -56,7 +56,11 @@
 		<div>
 			<!-- <span class="fa-solid fa-house icon" /> -->
 			<span class="fa-solid fa-music fa-fw icon" />
-			<a href={`https://${place.club.link}`} target="_blank" rel="noopener noreferrer">
+			<a
+				href={`http${place.club.http ? '' : 's'}://${place.club.link}`}
+				target="_blank"
+				rel="noopener noreferrer"
+			>
 				{place.club.name}
 			</a>
 		</div>

@@ -2,6 +2,8 @@
 	import { fade } from 'svelte/transition'
 	import type { Place } from './model'
 
+	//FIXME Svelte transitions add empty style to head every time triggered
+
 	export let place: Place
 
 	const mouseenter = () => {
@@ -19,7 +21,6 @@
 	class="absolute p-5 text-lg"
 	style="left: {place.position.x}%; top: {place.position.y}%;"
 	on:mouseenter={mouseenter}
-	on:mouseleave={mouseleave}
 >
 	{place.city}
 </div>

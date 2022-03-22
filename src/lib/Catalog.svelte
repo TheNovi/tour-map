@@ -5,10 +5,10 @@
 	//TODO Add facebook
 </script>
 
-<div class="bg-slate-900 pt-10">
+<div class="bg-main-brown pt-10">
 	{#each places.places as place}
 		<div class="text-center w-max mx-auto mb-10">
-			<div class="text-xl">{place.city} - {place.date}</div>
+			<div class="text-xl select-text">{place.city} - {place.date}</div>
 			<div>
 				<!-- <span class="fa-solid fa-house icon" /> -->
 				<span class="fa-solid fa-music fa-fw icon" />

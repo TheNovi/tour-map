@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 body {
-	@apply bg-gray-800 text-gray-200 select-none;
+	@apply text-main-white select-none bg-gradient-to-br from-main-pink  to-main-blue;
 }
 
 a {
-	@apply text-blue-400 underline;
+	@apply text-default-blue underline;
 }
 
 .button {
-	@apply text-white no-underline;
-	@apply text-center bg-blue-800 hover:bg-blue-600 rounded-md shadow-lg flex-grow p-1 my-2;
+	@apply text-main-white no-underline;
+	@apply text-center bg-main-blue hover:bg-main-pink rounded-md shadow-lg flex-grow p-1 my-2;
 }
 
 /* Scrollbar */
@@ -26,6 +26,6 @@ a {
 }
 
 ::-webkit-scrollbar-track {
-	/* @apply bg-slate-800; */
-	@apply bg-transparent;
+	/* @apply bg-main-brown md:bg-main-blue; */
+	@apply bg-main-brown md:bg-slate-800;
 }

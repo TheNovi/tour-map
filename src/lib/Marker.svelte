@@ -30,11 +30,11 @@
 		on:mouseenter={mouseenter}
 		on:mouseleave={mouseleave}
 		transition:fade
-		class="absolute bg-pink-900 p-4 shadow-lg whitespace-nowrap z-10"
+		class="absolute bg-main-purple p-4 shadow-lg whitespace-nowrap z-10"
 		style="left: {Math.min(place.position.x, 100)}%; top: {place.position.y}%;"
 	>
 		<div class="flex justify-between text-lg">
-			<span>
+			<span class="select-text">
 				{place.city}
 			</span>
 			<a
@@ -49,7 +49,7 @@
 		<div>
 			<!-- TODO Add to calendar -->
 			<span class="fa-solid fa-clock fa-fw icon" />
-			<span class="col-span-7">
+			<span class="col-span-7 select-text">
 				{place.date}
 			</span>
 		</div>

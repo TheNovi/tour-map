@@ -8,8 +8,8 @@
 	//TODO Mobile view
 
 	const title = 'DeeThane Tour 2022'
-	const desc = 'Interaktivní mapa pro 2022 tour'
-	const img = 'https://pensive-mirzakhani-203793.netlify.app/cz1.png' //TODO Better img, main domain
+	const desc = 'Interaktivní mapa pro aktuální DeeThane tour'
+	const img = 'https://deethanetour.cz/cz1.png' //TODO Better img
 </script>
 
 <svelte:head>

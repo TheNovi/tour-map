@@ -1,4 +1,3 @@
-//TODO From static file
 import type { Place } from '../model'
 
 const places: { config: {}; places: Place[] } = {
@@ -76,8 +75,7 @@ const places: { config: {}; places: Place[] } = {
 			ticket: 'google.com/search?q=Gde+tour',
 			club: {
 				name: 'Nový Obzor Music Arena',
-				http: true,
-				link: 'novy-obzor.cz/',
+				link: 'novy-obzor.cz',
 				address: 'Růžová 1280, 434 01 Most',
 				map: 'Uy2vF1W96fjCKEAb7',
 			},
@@ -90,7 +88,7 @@ const places: { config: {}; places: Place[] } = {
 			ticket: 'google.com/search?q=Gde+tour',
 			club: {
 				name: 'Klub Barbar',
-				link: 'hotelpalcat.cz/barbar/',
+				link: 'hotelpalcat.cz/barbar',
 				address: 'Vančurova 2904, 390 01',
 				map: '9xiZcC9MMMHvmZUL9',
 			},
@@ -137,5 +135,113 @@ const places: { config: {}; places: Place[] } = {
 		},
 	],
 }
+
+// const real: Place[] = [
+// 	{
+// 		city: 'Plzeň',
+// 		date: '7.5.2022 20:00',
+// 		fb: '',
+// 		ticket: 'google.com/search?q=Gde+tour',
+// 		club: {
+// 			name: 'Anděl Café, Music Bar',
+// 			link: 'www.andelcafe.cz/musicbar',
+// 			address: 'Bezručova 151/5, 301 00 Plzeň 3',
+// 			map: 'fJpTQStVGNUwNq2dA',
+// 		},
+// 		position: { x: 15, y: 45 },
+// 	},
+// 	{
+// 		city: 'Most',
+// 		date: '13.5.2022 20:00',
+// 		fb: '',
+// 		ticket: 'google.com/search?q=Gde+tour',
+// 		club: {
+// 			name: 'Nový Obzor Music Arena',
+// 			link: 'novy-obzor.cz',
+// 			address: 'Růžová 1280, 434 01 Most',
+// 			map: 'Uy2vF1W96fjCKEAb7',
+// 		},
+// 		position: { x: 20, y: 15 },
+// 	},
+// 	{
+// 		city: 'Kolín',
+// 		date: '21.5.2022 20:00',
+// 		fb: '',
+// 		ticket: 'google.com/search?q=Gde+tour',
+// 		club: {
+// 			name: 'Staré lázně',
+// 			link: 'starelazne.cz',
+// 			address: 'Starokolínská 287, 280 02',
+// 			map: 'dy2e6GVZfWbj3WNb6',
+// 		},
+// 		position: { x: 42, y: 35 },
+// 	},
+// 	{
+// 		city: 'Liberec',
+// 		date: '27.5.2022 20:00',
+// 		fb: '',
+// 		ticket: 'google.com/search?q=Gde+tour',
+// 		club: {
+// 			name: 'BUNKR Rock Club',
+// 			link: 'bunkrliberec.cz',
+// 			address: 'Tržní náměstí, 460 01',
+// 			map: 'isvhPk5TeEgaePMb7',
+// 		},
+// 		position: { x: 40, y: 8 },
+// 	},
+// 	{
+// 		city: 'Třebíč',
+// 		date: '28.5.2022 20:00',
+// 		fb: '',
+// 		ticket: 'google.com/search?q=Gde+tour',
+// 		club: {
+// 			name: 'ROXY Club Třebíč',
+// 			link: 'roxy-club.cz',
+// 			address: 'Kpt. Jaroše 736/6, 674 01',
+// 			map: '//g.page/roxyclubtrebic?share',
+// 		},
+// 		position: { x: 55, y: 68 },
+// 	},
+// 	{
+// 		city: 'České Budějovice',
+// 		date: '3.6.2022 20:00',
+// 		fb: '',
+// 		ticket: 'google.com/search?q=Gde+tour',
+// 		club: {
+// 			name: 'MC Fabrika',
+// 			link: 'mcfabrika.cz',
+// 			address: 'Jeronýmova 6, 370 01',
+// 			map: 'bA2LzCiLnhn6UK3C7',
+// 		},
+// 		position: { x: 25, y: 75 },
+// 	},
+// 	{
+// 		city: 'Pardubice',
+// 		date: '4.6.2022 20:00',
+// 		fb: '',
+// 		ticket: 'google.com/search?q=Gde+tour',
+// 		club: {
+// 			name: 'Music club Žlutý pes',
+// 			link: 'zlutak.cz',
+// 			address: 'Ke Koupališti 62, 530 09 Pardubice II',
+// 			map: 'hzidXSEAAxj2rNMZA',
+// 		},
+// 		position: { x: 52, y: 35 },
+// 	},
+// 	{
+// 		city: 'Jablůnkov',
+// 		date: '11.6.2022 20:00',
+// 		fb: '',
+// 		ticket: 'google.com/search?q=Gde+tour',
+// 		club: {
+// 			name: 'Rock Cafe Southock',
+// 			link: 'rokac.cz',
+// 			address: 'Bělá 1069, 739 91',
+// 			map: '//g.page/rokac?share',
+// 		},
+// 		position: { x: 90, y: 52 },
+// 	},
+// ]
+// places.places = real
 
 export default places

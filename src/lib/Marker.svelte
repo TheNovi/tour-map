@@ -38,7 +38,7 @@
 				{place.city}
 			</span>
 			<a
-				href={`https://fb.me/e/${place.fb}`}
+				href={`//fb.me/e/${place.fb}`}
 				class="no-underline mx-3"
 				target="_blank"
 				rel="noopener noreferrer"
@@ -56,18 +56,14 @@
 		<div>
 			<!-- <span class="fa-solid fa-house icon" /> -->
 			<span class="fa-solid fa-music fa-fw icon" />
-			<a
-				href={`http${place.club.http ? '' : 's'}://${place.club.link}`}
-				target="_blank"
-				rel="noopener noreferrer"
-			>
+			<a href={`//${place.club.link}`} target="_blank" rel="noopener noreferrer">
 				{place.club.name}
 			</a>
 		</div>
 		<div>
 			<span class="fa-solid fa-location-dot fa-fw icon" />
 			<a
-				href={`https://goo.gl/maps/${place.club.map}`}
+				href={place.club.map.startsWith('//') ? place.club.map : `//goo.gl/maps/${place.club.map}`}
 				class="text-gray-400 italic"
 				target="_blank"
 				rel="noopener noreferrer"
@@ -76,7 +72,7 @@
 			</a>
 		</div>
 		<div class="flex">
-			<a href={`https://${place.ticket}`} class="button" target="_blank" rel="noopener noreferrer">
+			<a href={`//${place.ticket}`} class="button" target="_blank" rel="noopener noreferrer">
 				Kup lístek
 			</a>
 		</div>

@@ -18,6 +18,15 @@ module.exports = {
 					brown: '#622624',
 				},
 			},
+			animation: {
+				gradient: 'gradient 20s ease-in-out infinite',
+			},
+			keyframes: {
+				gradient: {
+					'0%, 100%': { 'background-position': '0%' },
+					'50%': { 'background-position': '100%' },
+				},
+			},
 		},
 	},
 	plugins: [],

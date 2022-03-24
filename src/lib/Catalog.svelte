@@ -27,10 +27,10 @@
 					{place.club.address}
 				</a>
 			</div>
-			<div class="flex">
+			<div class="flex justify-center">
 				<a
 					href={`https://${place.ticket}`}
-					class="button"
+					class="button px-20"
 					target="_blank"
 					rel="noopener noreferrer"
 				>

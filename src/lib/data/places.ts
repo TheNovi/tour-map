@@ -5,7 +5,7 @@ const places: { config: {}; places: Place[] } = {
 	places: [
 		// {
 		// 	city: 'Praha',
-		// 	date: '29.5.2022 19:00',
+		// 	date: '2022-05-29T19:00:00',
 		// 	fb: '1ENNmAGt0',
 		// 	ticket: 'google.com/search?q=Gde+tour',
 		// 	club: {
@@ -18,7 +18,7 @@ const places: { config: {}; places: Place[] } = {
 		// },
 		{
 			city: 'Klatovy',
-			date: '6.5.2022 00:00',
+			date: '2022-03-06T00:00:00',
 			fb: '',
 			ticket: 'google.com/search?q=Gde+tour',
 			club: {
@@ -31,7 +31,7 @@ const places: { config: {}; places: Place[] } = {
 		},
 		{
 			city: 'Kladno',
-			date: '7.5.2022 00:00',
+			date: '2022-05-07T00:00:00',
 			fb: '',
 			ticket: 'google.com/search?q=Gde+tour',
 			club: {
@@ -44,7 +44,7 @@ const places: { config: {}; places: Place[] } = {
 		},
 		{
 			city: 'Olomouc',
-			date: '13.5.2022 00:00',
+			date: '2022-05-13T00:00:00',
 			fb: '',
 			ticket: 'google.com/search?q=Gde+tour',
 			club: {
@@ -57,7 +57,7 @@ const places: { config: {}; places: Place[] } = {
 		},
 		{
 			city: 'Uherské Hradiště',
-			date: '14.5.2022 00:00',
+			date: '2022-05-14T00:00:00',
 			fb: '',
 			ticket: 'google.com/search?q=Gde+tour',
 			club: {
@@ -70,7 +70,7 @@ const places: { config: {}; places: Place[] } = {
 		},
 		{
 			city: 'Most',
-			date: '21.5.2022 00:00',
+			date: '2022-05-21T00:00:00',
 			fb: '',
 			ticket: 'google.com/search?q=Gde+tour',
 			club: {
@@ -83,7 +83,7 @@ const places: { config: {}; places: Place[] } = {
 		},
 		{
 			city: 'Tábor',
-			date: '27.5.2022 00:00',
+			date: '2022-05-27T00:00:00',
 			fb: '',
 			ticket: 'google.com/search?q=Gde+tour',
 			club: {
@@ -96,7 +96,7 @@ const places: { config: {}; places: Place[] } = {
 		},
 		{
 			city: 'České Budějovice',
-			date: '28.5.2022 00:00',
+			date: '2022-05-28T00:00:00',
 			fb: '',
 			ticket: 'google.com/search?q=Gde+tour',
 			club: {
@@ -109,7 +109,7 @@ const places: { config: {}; places: Place[] } = {
 		},
 		{
 			city: 'Jihlava',
-			date: '3.6.2022 00:00',
+			date: '2022-06-03T00:00:00',
 			fb: '',
 			ticket: 'google.com/search?q=Gde+tour',
 			club: {
@@ -122,7 +122,7 @@ const places: { config: {}; places: Place[] } = {
 		},
 		{
 			city: 'Pardubice',
-			date: '4.6.2022 00:00',
+			date: '2022-06-04T00:00:00',
 			fb: '',
 			ticket: 'google.com/search?q=Gde+tour',
 			club: {
@@ -139,12 +139,12 @@ const places: { config: {}; places: Place[] } = {
 // const real: Place[] = [
 // 	{
 // 		city: 'Plzeň',
-// 		date: '7.5.2022 20:00',
+// 		date: '2022-05-07T20:00:00',
 // 		fb: '',
 // 		ticket: 'google.com/search?q=Gde+tour',
 // 		club: {
 // 			name: 'Anděl Café, Music Bar',
-// 			link: 'www.andelcafe.cz/musicbar',
+// 			link: 'andelcafe.cz/musicbar',
 // 			address: 'Bezručova 151/5, 301 00 Plzeň 3',
 // 			map: 'fJpTQStVGNUwNq2dA',
 // 		},
@@ -152,20 +152,20 @@ const places: { config: {}; places: Place[] } = {
 // 	},
 // 	{
 // 		city: 'Most',
-// 		date: '13.5.2022 20:00',
+// 		date: '2022-05-13T20:00:00',
 // 		fb: '',
 // 		ticket: 'google.com/search?q=Gde+tour',
 // 		club: {
 // 			name: 'Nový Obzor Music Arena',
 // 			link: 'novy-obzor.cz',
-// 			address: 'Růžová 1280, 434 01 Most',
+// 			address: 'Růžová 1280, 434 01',
 // 			map: 'Uy2vF1W96fjCKEAb7',
 // 		},
 // 		position: { x: 20, y: 15 },
 // 	},
 // 	{
 // 		city: 'Kolín',
-// 		date: '21.5.2022 20:00',
+// 		date: '2022-05-21T20:00:00',
 // 		fb: '',
 // 		ticket: 'google.com/search?q=Gde+tour',
 // 		club: {
@@ -178,7 +178,7 @@ const places: { config: {}; places: Place[] } = {
 // 	},
 // 	{
 // 		city: 'Liberec',
-// 		date: '27.5.2022 20:00',
+// 		date: '2022-05-27T20:00:00',
 // 		fb: '',
 // 		ticket: 'google.com/search?q=Gde+tour',
 // 		club: {
@@ -191,7 +191,7 @@ const places: { config: {}; places: Place[] } = {
 // 	},
 // 	{
 // 		city: 'Třebíč',
-// 		date: '28.5.2022 20:00',
+// 		date: '2022-05-28T20:00:00',
 // 		fb: '',
 // 		ticket: 'google.com/search?q=Gde+tour',
 // 		club: {
@@ -204,7 +204,7 @@ const places: { config: {}; places: Place[] } = {
 // 	},
 // 	{
 // 		city: 'České Budějovice',
-// 		date: '3.6.2022 20:00',
+// 		date: '2022-06-03T20:00:00',
 // 		fb: '',
 // 		ticket: 'google.com/search?q=Gde+tour',
 // 		club: {
@@ -217,7 +217,7 @@ const places: { config: {}; places: Place[] } = {
 // 	},
 // 	{
 // 		city: 'Pardubice',
-// 		date: '4.6.2022 20:00',
+// 		date: '2022-06-04T20:00:00',
 // 		fb: '',
 // 		ticket: 'google.com/search?q=Gde+tour',
 // 		club: {
@@ -230,7 +230,7 @@ const places: { config: {}; places: Place[] } = {
 // 	},
 // 	{
 // 		city: 'Jablůnkov',
-// 		date: '11.6.2022 20:00',
+// 		date: '2022-06-11T20:00:00',
 // 		fb: '',
 // 		ticket: 'google.com/search?q=Gde+tour',
 // 		club: {

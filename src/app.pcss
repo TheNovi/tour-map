@@ -4,19 +4,27 @@
 
 body {
 	@apply overflow-x-hidden bg-fixed;
-	@apply text-main-white select-none bg-gradient-to-br from-main-pink to-main-blue;
-	@apply animate-gradient;
+	@apply text-main-white select-none decoration-2 bg-gradient-to-br from-main-pink to-main-blue animate-gradient;
 	background-size: 200% 100%;
 }
 
 a {
-	@apply text-default-blue underline;
+	@apply text-default-blue underline decoration-1;
+}
+
+div,
+span {
+	text-decoration: inherit;
 }
 
 .button {
 	@apply text-main-white no-underline;
 	@apply text-center bg-main-blue hover:bg-main-pink rounded-md shadow-lg py-1 my-2;
 	@apply transition-colors ease-in-out duration-500;
+}
+
+.icon {
+	@apply text-lg ml-1;
 }
 
 /* Scrollbar */

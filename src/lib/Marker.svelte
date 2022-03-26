@@ -2,10 +2,13 @@
 	import { fade } from 'svelte/transition'
 	import IconLink from './components/IconLink.svelte'
 	import type { Place } from './model'
+	import { isOld, f } from './util/dates'
 
 	//FIXME Svelte transitions add empty style to head every time triggered
 
 	export let place: Place
+
+	$: old = isOld(place)
 
 	const mouseenter = () => {
 		hover = true
@@ -20,6 +23,7 @@
 
 <div
 	class="absolute p-4 text-lg whitespace-nowrap"
+	class:line-through={old}
 	style="left: {place.position.x}%; top: {place.position.y}%;"
 	on:mouseenter={mouseenter}
 >
@@ -31,6 +35,7 @@
 		on:mouseenter={mouseenter}
 		on:mouseleave={mouseleave}
 		transition:fade
+		class:line-through={old}
 		class="absolute bg-main-purple p-4 shadow-lg whitespace-nowrap z-10"
 		style="left: {Math.min(place.position.x, 100)}%; top: {place.position.y}%;"
 	>
@@ -44,11 +49,10 @@
 			<!-- TODO Add to calendar -->
 			<span class="fa-solid fa-clock fa-fw icon" />
 			<span class="col-span-7 select-text">
-				{place.date}
+				{f(place.date)}
 			</span>
 		</div>
 		<div>
-			<!-- <span class="fa-solid fa-house icon" /> -->
 			<span class="fa-solid fa-music fa-fw icon" />
 			<a href={`//${place.club.link}`} target="_blank" rel="noopener noreferrer">
 				{place.club.name}
@@ -77,9 +81,3 @@
 		</div>
 	</div>
 {/if}
-
-<style scoped lang="postcss">
-	.icon {
-		@apply text-lg mr-2;
-	}
-</style>

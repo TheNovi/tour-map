@@ -10,6 +10,7 @@
 	"license": "MIT",
 	"scripts": {
 		"dev": "svelte-kit dev",
+		"dev:host": "svelte-kit dev --host",
 		"build": "svelte-kit build",
 		"package": "svelte-kit package",
 		"preview": "svelte-kit preview",

@@ -35,9 +35,15 @@
 	<meta property="og:description" content={desc} />
 </svelte:head>
 
+<div class="w-full text-2xl shadow-md p-2">{title}</div>
 <div class="hidden md:flex flex-col h-full">
 	<Map class="flex-grow px-32 text-xs lg:text-base" />
 	<!-- TODO Bouncing arrow -->
 	<!-- <div class="w-full text-center py-5">More...</div> -->
 </div>
 <Catalog />
+<div class="flex flex-row  p-1 bg-black text-xs">
+	<span>For any info contact Welfare</span>
+	<div class="flex-grow" />
+	<span>Created by TheNovi</span>
+</div>

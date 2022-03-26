@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { fade } from 'svelte/transition'
+	import IconLink from './components/IconLink.svelte'
 	import type { Place } from './model'
 
 	//FIXME Svelte transitions add empty style to head every time triggered
@@ -37,14 +38,7 @@
 			<span class="select-text">
 				{place.city}
 			</span>
-			<a
-				href={`//fb.me/e/${place.fb}`}
-				class="no-underline mx-3"
-				target="_blank"
-				rel="noopener noreferrer"
-			>
-				<span class="fa-brands fa-facebook-f fa-fw" />
-			</a>
+			<IconLink href={`//fb.me/e/${place.fb}`} icon="fa-brands fa-facebook-f" fafw />
 		</div>
 		<div>
 			<!-- TODO Add to calendar -->
@@ -85,11 +79,6 @@
 {/if}
 
 <style scoped lang="postcss">
-	/* .button {
-		@apply text-white no-underline;
-		@apply flex-grow text-center bg-blue-800 rounded-md shadow-lg p-1 my-2;
-	} */
-
 	.icon {
 		@apply text-lg mr-2;
 	}

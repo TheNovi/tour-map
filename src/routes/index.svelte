@@ -1,9 +1,9 @@
 <script lang="ts">
 	import Catalog from '$lib/Catalog.svelte'
+	import Header from '$lib/Header.svelte'
 	import Map from '$lib/Map.svelte'
 
-	//TODO robots.txt
-	//TODO Header + footer
+	//TODO robots.txt, SEO
 	//TODO Favicon
 	//TODO Cross old places
 
@@ -35,15 +35,16 @@
 	<meta property="og:description" content={desc} />
 </svelte:head>
 
-<div class="w-full text-2xl shadow-md p-2">{title}</div>
+<Header {title} />
 <div class="hidden md:flex flex-col h-full">
 	<Map class="flex-grow px-32 text-xs lg:text-base" />
 	<!-- TODO Bouncing arrow -->
 	<!-- <div class="w-full text-center py-5">More...</div> -->
 </div>
 <Catalog />
-<div class="flex flex-row  p-1 bg-black text-xs">
-	<span>For any info contact Welfare</span>
+<!-- Footer -->
+<div class="flex flex-row p-1 text-xs">
+	<span>For any info contact <a href="mailto:welfare@gmail.com">welfare@gmail.com</a></span>
 	<div class="flex-grow" />
 	<span>Created by TheNovi</span>
 </div>

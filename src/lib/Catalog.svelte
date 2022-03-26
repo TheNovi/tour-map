@@ -5,7 +5,7 @@
 	//TODO Add facebook
 </script>
 
-<div class="bg-main-brown pt-10">
+<div class="pt-10">
 	{#each places.places as place}
 		<div class="text-center w-max mx-auto mb-10">
 			<div class="text-xl select-text">{place.city} - {place.date}</div>

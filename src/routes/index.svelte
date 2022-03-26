@@ -37,10 +37,7 @@
 
 <div class="hidden md:flex flex-col h-full">
 	<Map class="flex-grow px-32 text-xs lg:text-base" />
-	<div
-		class="w-full text-center py-5 bg-gradient-to-b from-transparent via-transparent to-main-brown"
-	>
-		More...
-	</div>
+	<!-- TODO Bouncing arrow -->
+	<!-- <div class="w-full text-center py-5">More...</div> -->
 </div>
 <Catalog />

@@ -4,8 +4,7 @@
 	import Map from '$lib/Map.svelte'
 
 	//TODO robots.txt, SEO
-	//TODO Favicon
-	//TODO Cross old places
+	//TODO Add some subtle animations
 
 	const title = 'DeeThane Tour 2022'
 	const desc = 'Interaktivní mapa pro aktuální DeeThane tour'
@@ -35,11 +34,13 @@
 	<meta property="og:description" content={desc} />
 </svelte:head>
 
-<Header {title} />
-<div class="hidden md:flex flex-col h-full">
-	<Map class="flex-grow px-32 text-xs lg:text-base" />
-	<!-- TODO Bouncing arrow -->
-	<!-- <div class="w-full text-center py-5">More...</div> -->
+<div class="md:h-screen">
+	<Header {title} />
+	<div class="hidden md:flex flex-col h-full">
+		<Map class="flex-grow px-32 text-xs lg:text-base" />
+		<!-- TODO Bouncing arrow -->
+		<!-- <div class="w-full text-center py-5">More...</div> -->
+	</div>
 </div>
 <Catalog />
 <!-- Footer -->

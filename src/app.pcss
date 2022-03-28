@@ -3,9 +3,11 @@
 @tailwind utilities;
 
 body {
-	@apply overflow-x-hidden bg-fixed;
-	@apply text-main-white select-none decoration-2 bg-gradient-to-br from-main-pink to-main-blue animate-gradient;
-	background-size: 200% 100%;
+	@apply overflow-x-hidden;
+	@apply text-main-white select-none decoration-2 bg-gradient-to-br from-main-pink to-main-blue;
+	/* FIXME Animate was causing weird white bar while scrolling on mobile (when top url bar was in proces of hiding)  */
+	/* animate-gradient bg-fixed */
+	/* background-size: 200% 100%; */
 }
 
 a {
@@ -18,9 +20,9 @@ span {
 }
 
 .button {
-	@apply text-main-white no-underline;
+	@apply text-main-white no-underline whitespace-nowrap;
 	@apply text-center bg-main-blue hover:bg-main-pink rounded-md shadow-lg py-1 my-2;
-	@apply transition-colors ease-in-out duration-500;
+	@apply transition-colors ease-in-out duration-300;
 }
 
 .icon {

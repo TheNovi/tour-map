@@ -17,7 +17,7 @@ module.exports = {
 				},
 			},
 			animation: {
-				gradient: 'gradient 20s ease-in-out infinite',
+				gradient: 'gradient 20s ease-in-out infinite', //Not used at the moment
 			},
 			keyframes: {
 				gradient: {

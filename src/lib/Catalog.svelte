@@ -2,13 +2,15 @@
 	import places from './data/places'
 	import { isOld, f } from './util/dates'
 
-	//TODO Add divider
 	//TODO Add facebook event
 </script>
 
-<div class="pt-10">
+<div class="m-5 grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
 	{#each places.places as place}
-		<div class="text-center w-max mx-auto mb-10" class:line-through={isOld(place)}>
+		<div
+			class="flex flex-col text-center p-5 shadow-xl rounded-tr-xl rounded-bl-xl bg-gradient-to-br from-transparent to-main-purple"
+			class:line-through={isOld(place)}
+		>
 			<div class="text-xl select-text">{place.city} - {f(place.date)}</div>
 			<div>
 				<!-- <span class="fa-solid fa-house icon" /> -->
@@ -30,10 +32,11 @@
 					{place.club.address}
 				</a>
 			</div>
+			<div class="flex-grow" />
 			<div class="flex justify-center">
 				<a
 					href={`//${place.ticket}`}
-					class="button px-20"
+					class="button flex-grow"
 					target="_blank"
 					rel="noopener noreferrer"
 				>

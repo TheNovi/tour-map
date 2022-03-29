@@ -1,6 +1,6 @@
 <script lang="ts">
 	import places from './data/places'
-	import { isOld, f } from './util/dates'
+	import { f, isOld } from './util/dates'
 
 	//TODO Add facebook event
 </script>
@@ -32,10 +32,17 @@
 					{place.club.address}
 				</a>
 			</div>
+			<div>
+				<!-- <span class="fa-solid fa-house icon" /> -->
+				<span class="fa-brands fa-facebook fa-fw icon" />
+				<a href={`//fb.me/e/${place.fb}`} target="_blank" rel="noopener noreferrer">
+					Facebook event
+				</a>
+			</div>
 			<div class="flex-grow" />
 			<div class="flex justify-center">
 				<a
-					href={`//${place.ticket}`}
+					href={places.config.url.tickets.prefix + place.ticket}
 					class="button flex-grow"
 					target="_blank"
 					rel="noopener noreferrer"

@@ -1,3 +1,13 @@
+export type Config = {
+	url: {
+		tickets: {
+			prefix: string
+			// suffix?: string
+		}
+		songList: string
+	}
+}
+
 export type Place = {
 	city: string
 	date: string

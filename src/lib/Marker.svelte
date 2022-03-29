@@ -1,12 +1,13 @@
 <script lang="ts">
 	import { fade } from 'svelte/transition'
 	import IconLink from './components/IconLink.svelte'
-	import type { Place } from './model'
-	import { isOld, f } from './util/dates'
+	import type { Config, Place } from './model'
+	import { f, isOld } from './util/dates'
 
 	//FIXME Svelte transitions add empty style to head every time triggered
 
 	export let place: Place
+	export let config: Config
 
 	$: old = isOld(place)
 
@@ -73,7 +74,7 @@
 		</div>
 		<div class="flex">
 			<a
-				href={`//${place.ticket}`}
+				href={config.url.tickets.prefix + place.ticket}
 				class="button flex-grow"
 				target="_blank"
 				rel="noopener noreferrer"

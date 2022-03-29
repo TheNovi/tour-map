@@ -19,7 +19,7 @@ const places: { config: {}; places: Place[] } = {
 		{
 			city: 'Klatovy',
 			date: '2022-03-06T00:00:00',
-			fb: '',
+			fb: '1ENNmAGt0',
 			ticket: 'google.com/search?q=Gde+tour',
 			club: {
 				name: 'Falcon klub',
@@ -32,7 +32,7 @@ const places: { config: {}; places: Place[] } = {
 		{
 			city: 'Kladno',
 			date: '2022-05-07T00:00:00',
-			fb: '',
+			fb: '1ENNmAGt0',
 			ticket: 'google.com/search?q=Gde+tour',
 			club: {
 				name: '',
@@ -45,7 +45,7 @@ const places: { config: {}; places: Place[] } = {
 		{
 			city: 'Olomouc',
 			date: '2022-05-13T00:00:00',
-			fb: '',
+			fb: '1ENNmAGt0',
 			ticket: 'google.com/search?q=Gde+tour',
 			club: {
 				name: '15 Minut Music Club',
@@ -58,7 +58,7 @@ const places: { config: {}; places: Place[] } = {
 		{
 			city: 'Uherské Hradiště',
 			date: '2022-05-14T00:00:00',
-			fb: '',
+			fb: '1ENNmAGt0',
 			ticket: 'google.com/search?q=Gde+tour',
 			club: {
 				name: 'Klub Mír',
@@ -71,7 +71,7 @@ const places: { config: {}; places: Place[] } = {
 		{
 			city: 'Most',
 			date: '2022-05-21T00:00:00',
-			fb: '',
+			fb: '1ENNmAGt0',
 			ticket: 'google.com/search?q=Gde+tour',
 			club: {
 				name: 'Nový Obzor Music Arena',
@@ -84,7 +84,7 @@ const places: { config: {}; places: Place[] } = {
 		{
 			city: 'Tábor',
 			date: '2022-05-27T00:00:00',
-			fb: '',
+			fb: '1ENNmAGt0',
 			ticket: 'google.com/search?q=Gde+tour',
 			club: {
 				name: 'Klub Barbar',
@@ -97,7 +97,7 @@ const places: { config: {}; places: Place[] } = {
 		{
 			city: 'České Budějovice',
 			date: '2022-05-28T00:00:00',
-			fb: '',
+			fb: '1ENNmAGt0',
 			ticket: 'google.com/search?q=Gde+tour',
 			club: {
 				name: 'Hudební klub K2',
@@ -110,7 +110,7 @@ const places: { config: {}; places: Place[] } = {
 		{
 			city: 'Jihlava',
 			date: '2022-06-03T00:00:00',
-			fb: '',
+			fb: '1ENNmAGt0',
 			ticket: 'google.com/search?q=Gde+tour',
 			club: {
 				name: 'D Klub',
@@ -123,7 +123,7 @@ const places: { config: {}; places: Place[] } = {
 		{
 			city: 'Pardubice',
 			date: '2022-06-04T00:00:00',
-			fb: '',
+			fb: '1ENNmAGt0',
 			ticket: 'google.com/search?q=Gde+tour',
 			club: {
 				name: 'Music club Žlutý pes',
@@ -140,7 +140,7 @@ const places: { config: {}; places: Place[] } = {
 // 	{
 // 		city: 'Plzeň',
 // 		date: '2022-05-07T20:00:00',
-// 		fb: '',
+// 		fb: '1ENNmAGt0',
 // 		ticket: 'google.com/search?q=Gde+tour',
 // 		club: {
 // 			name: 'Anděl Café, Music Bar',
@@ -153,7 +153,7 @@ const places: { config: {}; places: Place[] } = {
 // 	{
 // 		city: 'Most',
 // 		date: '2022-05-13T20:00:00',
-// 		fb: '',
+// 		fb: '1ENNmAGt0',
 // 		ticket: 'google.com/search?q=Gde+tour',
 // 		club: {
 // 			name: 'Nový Obzor Music Arena',
@@ -166,7 +166,7 @@ const places: { config: {}; places: Place[] } = {
 // 	{
 // 		city: 'Kolín',
 // 		date: '2022-05-21T20:00:00',
-// 		fb: '',
+// 		fb: '1ENNmAGt0',
 // 		ticket: 'google.com/search?q=Gde+tour',
 // 		club: {
 // 			name: 'Staré lázně',
@@ -179,7 +179,7 @@ const places: { config: {}; places: Place[] } = {
 // 	{
 // 		city: 'Liberec',
 // 		date: '2022-05-27T20:00:00',
-// 		fb: '',
+// 		fb: '1ENNmAGt0',
 // 		ticket: 'google.com/search?q=Gde+tour',
 // 		club: {
 // 			name: 'BUNKR Rock Club',
@@ -192,7 +192,7 @@ const places: { config: {}; places: Place[] } = {
 // 	{
 // 		city: 'Třebíč',
 // 		date: '2022-05-28T20:00:00',
-// 		fb: '',
+// 		fb: '1ENNmAGt0',
 // 		ticket: 'google.com/search?q=Gde+tour',
 // 		club: {
 // 			name: 'ROXY Club Třebíč',
@@ -205,7 +205,7 @@ const places: { config: {}; places: Place[] } = {
 // 	{
 // 		city: 'České Budějovice',
 // 		date: '2022-06-03T20:00:00',
-// 		fb: '',
+// 		fb: '1ENNmAGt0',
 // 		ticket: 'google.com/search?q=Gde+tour',
 // 		club: {
 // 			name: 'MC Fabrika',
@@ -218,7 +218,7 @@ const places: { config: {}; places: Place[] } = {
 // 	{
 // 		city: 'Pardubice',
 // 		date: '2022-06-04T20:00:00',
-// 		fb: '',
+// 		fb: '1ENNmAGt0',
 // 		ticket: 'google.com/search?q=Gde+tour',
 // 		club: {
 // 			name: 'Music club Žlutý pes',
@@ -231,7 +231,7 @@ const places: { config: {}; places: Place[] } = {
 // 	{
 // 		city: 'Jablůnkov',
 // 		date: '2022-06-11T20:00:00',
-// 		fb: '',
+// 		fb: '1ENNmAGt0',
 // 		ticket: 'google.com/search?q=Gde+tour',
 // 		club: {
 // 			name: 'Rock Cafe Southock',

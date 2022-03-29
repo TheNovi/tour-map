@@ -45,7 +45,7 @@
 <Catalog />
 <!-- Footer -->
 <div class="flex flex-row p-1 text-xs">
-	<span>For any info contact <a href="mailto:welfare@gmail.com">welfare@gmail.com</a></span>
+	<span>For any info contact <a href="mailto:welfarecz@gmail.com">welfarecz@gmail.com</a></span>
 	<div class="flex-grow" />
 	<span>Created by TheNovi</span>
 </div>

@@ -6,9 +6,10 @@
 	//TODO robots.txt, SEO
 	//TODO Add some subtle animations
 
-	const title = 'DeeThane Tour 2022'
-	const desc = 'Interaktivní mapa pro aktuální DeeThane tour'
-	const img = 'https://deethanetour.cz/cz1.png' //TODO Better img
+	const title = 'Tour jak má BEAT'
+	const desc =
+		'Interaktivní mapa se zastávkami Tour jak má BEAT. Klikni pro podrobné informace o jednotlivých městech.'
+	const img = 'https://deethanetour.cz/cover1.jpg'
 </script>
 
 <svelte:head>

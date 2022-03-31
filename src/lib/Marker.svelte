@@ -28,7 +28,7 @@
 	style="left: {place.position.x}%; top: {place.position.y}%;"
 	on:mouseenter={mouseenter}
 >
-	{place.city}
+	{place.city.toUpperCase()}
 </div>
 
 {#if hover}
@@ -37,12 +37,12 @@
 		on:mouseleave={mouseleave}
 		transition:fade
 		class:line-through={old}
-		class="absolute bg-main-purple p-4 shadow-lg whitespace-nowrap z-10"
+		class="absolute p-4 whitespace-nowrap z-10 card bg-main-purple"
 		style="left: {Math.min(place.position.x, 100)}%; top: {place.position.y}%;"
 	>
 		<div class="flex justify-between text-lg">
 			<span class="select-text">
-				{place.city}
+				{place.city.toUpperCase()}
 			</span>
 			<span class="mx-3">
 				<IconLink href={`//fb.me/e/${place.fb}`} icon="fa-brands fa-facebook-f" fafw />

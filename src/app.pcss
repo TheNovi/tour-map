@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+	font-family: 'General Sans', sans-serif;
+}
+
 body {
 	@apply overflow-x-hidden;
 	@apply text-main-white select-none decoration-2 bg-gradient-to-br from-main-pink to-main-blue;
@@ -27,6 +31,10 @@ span {
 
 .icon {
 	@apply text-lg ml-1;
+}
+
+.card {
+	@apply shadow-xl rounded-tr-xl rounded-bl-xl;
 }
 
 /* Scrollbar */

@@ -9,13 +9,17 @@ html {
 body {
 	@apply overflow-x-hidden;
 	@apply text-main-white select-none decoration-2 bg-gradient-to-br from-main-pink to-main-blue;
-	/* FIXME Animate was causing weird white bar while scrolling on mobile (when top url bar was in proces of hiding)  */
+	/* Animate was causing weird white bar while scrolling on mobile (when top url bar was in proces of hiding)  */
 	/* animate-gradient bg-fixed */
 	/* background-size: 200% 100%; */
 }
 
 a {
-	@apply text-default-blue underline decoration-1;
+	@apply text-default-blue decoration-1;
+}
+
+a:not(.button) {
+	@apply font-bold hover:underline;
 }
 
 div,

@@ -33,7 +33,6 @@
 				</a>
 			</div>
 			<div>
-				<!-- <span class="fa-solid fa-house icon" /> -->
 				<span class="fa-brands fa-facebook fa-fw icon" />
 				<a href={`//fb.me/e/${place.fb}`} target="_blank" rel="noopener noreferrer">
 					Facebook event

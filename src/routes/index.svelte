@@ -5,6 +5,7 @@
 
 	//TODO robots.txt, SEO
 	//TODO Add some subtle animations
+	//TODO Comment Fb events before going live
 
 	const title = 'Tour jak má BEAT'
 	const desc =

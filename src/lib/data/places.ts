@@ -246,7 +246,7 @@ const places: { config: Config; places: Place[] } = {
 // 			address: 'Bělá 1069, 739 91',
 // 			map: '//g.page/rokac?share',
 // 		},
-// 		position: { x: 90, y: 52 },
+// 		position: { x: 88, y: 52 },
 // 	},
 // ]
 // places.places = real

@@ -12,7 +12,7 @@
 			class="flex flex-col text-center p-5 card bg-gradient-to-br from-transparent to-main-purple"
 			class:line-through={isOld(place)}
 		>
-			<div class="text-xl select-text">{place.city.toUpperCase()} - {f(place.date)}</div>
+			<div class="text-xl select-text uppercase">{place.city} - {f(place.date)}</div>
 			<div>
 				<!-- <span class="fa-solid fa-house icon" /> -->
 				<span class="fa-solid fa-music fa-fw icon" />

@@ -24,12 +24,12 @@
 </script>
 
 <div
-	class="absolute p-4 text-lg whitespace-nowrap"
+	class="absolute p-4 text-lg whitespace-nowrap uppercase"
 	class:line-through={old}
 	style="left: {place.position.x}%; top: {place.position.y}%;"
 	on:mouseenter={mouseenter}
 >
-	{place.city.toUpperCase()}
+	{place.city}
 </div>
 
 {#if hover}
@@ -42,8 +42,8 @@
 		style="left: {Math.min(place.position.x, 100)}%; top: {place.position.y}%;"
 	>
 		<div class="flex justify-between text-lg">
-			<span class="select-text">
-				{place.city.toUpperCase()}
+			<span class="select-text uppercase">
+				{place.city}
 			</span>
 			<span class="mx-3">
 				<IconLink href={link('fb.me/e', place.fb)} icon="fa-brands fa-facebook-f" fafw />

@@ -2,6 +2,8 @@
 	import IconLink from './components/IconLink.svelte'
 	import places from './data/places'
 
+	//TODO Setlist coming soon
+
 	export let title
 </script>
 

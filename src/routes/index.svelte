@@ -7,7 +7,7 @@
 	//TODO Add some subtle animations
 	//TODO Comment Fb events before going live
 
-	const title = 'Tour jak má BEAT'
+	const title = 'Tour jak má BEAT' //TODO Add ' - PART I' on big screens (second element using hidden)
 	const desc =
 		'Interaktivní mapa se zastávkami Tour jak má BEAT. Klikni pro podrobné informace o jednotlivých městech.'
 	const img = 'https://deethanetour.cz/cover1.jpg'

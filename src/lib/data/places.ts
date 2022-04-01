@@ -4,7 +4,7 @@ const places: { config: Config; places: Place[] } = {
 	config: {
 		url: {
 			tickets: {
-				prefix: '//google.com/',
+				prefix: 'goout.net/en/deethane',
 			},
 			songList: '2UlL9D1myVmmct9U16kwzJ',
 		},
@@ -14,7 +14,7 @@ const places: { config: Config; places: Place[] } = {
 			city: 'Plzeň',
 			date: '2022-05-07T19:00:00',
 			fb: '1ENNmAGt0',
-			ticket: 'search?q=Gde+tour',
+			ticket: 'szcwift',
 			club: {
 				name: 'Anděl Café, Music Bar',
 				link: 'andelcafe.cz/musicbar',
@@ -28,12 +28,12 @@ const places: { config: Config; places: Place[] } = {
 			city: 'Most',
 			date: '2022-05-13T19:00:00',
 			fb: '1ENNmAGt0',
-			ticket: 'search?q=Gde+tour',
+			ticket: 'sziwift',
 			club: {
 				name: 'Nový Obzor Music Arena',
 				link: 'novy-obzor.cz',
 				http: true,
-				address: 'Růžová 1280, 434 01',
+				address: 'Růžová 1280/4, 434 01',
 				map: 'Uy2vF1W96fjCKEAb7',
 			},
 			position: { x: 20, y: 15 },
@@ -42,7 +42,7 @@ const places: { config: Config; places: Place[] } = {
 			city: 'Kolín',
 			date: '2022-05-21T19:00:00',
 			fb: '1ENNmAGt0',
-			ticket: 'search?q=Gde+tour',
+			ticket: 'sznwift',
 			club: {
 				name: 'Staré lázně',
 				link: 'starelazne.cz',
@@ -55,7 +55,7 @@ const places: { config: Config; places: Place[] } = {
 			city: 'Liberec',
 			date: '2022-05-27T19:00:00',
 			fb: '1ENNmAGt0',
-			ticket: 'search?q=Gde+tour',
+			ticket: 'sztwift',
 			club: {
 				name: 'BUNKR Rock Club',
 				link: 'bunkrliberec.cz',
@@ -68,7 +68,7 @@ const places: { config: Config; places: Place[] } = {
 			city: 'Třebíč',
 			date: '2022-05-28T19:00:00',
 			fb: '1ENNmAGt0',
-			ticket: 'search?q=Gde+tour',
+			ticket: 'szuwift',
 			club: {
 				name: 'ROXY Club Třebíč',
 				link: 'roxy-club.cz',
@@ -81,7 +81,7 @@ const places: { config: Config; places: Place[] } = {
 			city: 'České Budějovice',
 			date: '2022-06-03T19:00:00',
 			fb: '1ENNmAGt0',
-			ticket: 'search?q=Gde+tour',
+			ticket: 'szvwift',
 			club: {
 				name: 'MC Fabrika',
 				link: 'mcfabrika.cz',
@@ -94,7 +94,7 @@ const places: { config: Config; places: Place[] } = {
 			city: 'Pardubice',
 			date: '2022-06-04T19:00:00',
 			fb: '1ENNmAGt0',
-			ticket: 'search?q=Gde+tour',
+			ticket: 'szwwift',
 			club: {
 				name: 'Music club Žlutý pes',
 				link: 'zlutak.cz',
@@ -107,7 +107,7 @@ const places: { config: Config; places: Place[] } = {
 			city: 'Jablůnkov',
 			date: '2022-06-11T19:00:00',
 			fb: '1ENNmAGt0',
-			ticket: 'search?q=Gde+tour',
+			ticket: 'szxwift',
 			club: {
 				name: 'Rock Cafe Southock',
 				link: 'rokac.cz',

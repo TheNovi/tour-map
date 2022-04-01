@@ -1,6 +1,7 @@
 <script lang="ts">
 	import places from './data/places'
 	import { f, isOld } from './util/dates'
+	import link from './util/link'
 
 	//TODO Better facebook event
 </script>
@@ -15,16 +16,18 @@
 			<div>
 				<!-- <span class="fa-solid fa-house icon" /> -->
 				<span class="fa-solid fa-music fa-fw icon" />
-				<a href={`//${place.club.link}`} target="_blank" rel="noopener noreferrer">
+				<a
+					href={link('', place.club.link, place.club.http)}
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					{place.club.name}
 				</a>
 			</div>
 			<div>
 				<span class="fa-solid fa-location-dot fa-fw icon" />
 				<a
-					href={place.club.map.startsWith('//')
-						? place.club.map
-						: `//goo.gl/maps/${place.club.map}`}
+					href={link('goo.gl/maps', place.club.map)}
 					class="text-gray-400 italic"
 					target="_blank"
 					rel="noopener noreferrer"
@@ -34,14 +37,14 @@
 			</div>
 			<div>
 				<span class="fa-brands fa-facebook fa-fw icon" />
-				<a href={`//fb.me/e/${place.fb}`} target="_blank" rel="noopener noreferrer">
+				<a href={link('fb.me/e', place.fb)} target="_blank" rel="noopener noreferrer">
 					Facebook event
 				</a>
 			</div>
 			<div class="flex-grow" />
 			<div class="flex justify-center">
 				<a
-					href={places.config.url.tickets.prefix + place.ticket}
+					href={link(places.config.url.tickets.prefix, place.ticket)}
 					class="button flex-grow"
 					target="_blank"
 					rel="noopener noreferrer"

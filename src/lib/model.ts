@@ -16,6 +16,7 @@ export type Place = {
 	club: {
 		name: string
 		link: string
+		http?: boolean
 		address: string
 		map: string
 	}

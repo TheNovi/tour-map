@@ -3,6 +3,7 @@
 	import IconLink from './components/IconLink.svelte'
 	import type { Config, Place } from './model'
 	import { f, isOld } from './util/dates'
+	import link from './util/link'
 
 	//FIXME Svelte transitions add empty style to head every time triggered
 
@@ -45,7 +46,7 @@
 				{place.city.toUpperCase()}
 			</span>
 			<span class="mx-3">
-				<IconLink href={`//fb.me/e/${place.fb}`} icon="fa-brands fa-facebook-f" fafw />
+				<IconLink href={link('fb.me/e', place.fb)} icon="fa-brands fa-facebook-f" fafw />
 			</span>
 		</div>
 		<div>
@@ -57,14 +58,18 @@
 		</div>
 		<div>
 			<span class="fa-solid fa-music fa-fw icon" />
-			<a href={`//${place.club.link}`} target="_blank" rel="noopener noreferrer">
+			<a
+				href={link('', place.club.link, place.club.http)}
+				target="_blank"
+				rel="noopener noreferrer"
+			>
 				{place.club.name}
 			</a>
 		</div>
 		<div>
 			<span class="fa-solid fa-location-dot fa-fw icon" />
 			<a
-				href={place.club.map.startsWith('//') ? place.club.map : `//goo.gl/maps/${place.club.map}`}
+				href={link('goo.gl/maps', place.club.map)}
 				class="text-gray-400 italic"
 				target="_blank"
 				rel="noopener noreferrer"
@@ -74,7 +79,7 @@
 		</div>
 		<div class="flex">
 			<a
-				href={config.url.tickets.prefix + place.ticket}
+				href={link(config.url.tickets.prefix, place.ticket)}
 				class="button flex-grow"
 				target="_blank"
 				rel="noopener noreferrer"

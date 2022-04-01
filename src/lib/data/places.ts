@@ -18,6 +18,7 @@ const places: { config: Config; places: Place[] } = {
 			club: {
 				name: 'Anděl Café, Music Bar',
 				link: 'andelcafe.cz/musicbar',
+				http: true,
 				address: 'Bezručova 151/5, 301 00 Plzeň 3',
 				map: 'fJpTQStVGNUwNq2dA',
 			},
@@ -31,6 +32,7 @@ const places: { config: Config; places: Place[] } = {
 			club: {
 				name: 'Nový Obzor Music Arena',
 				link: 'novy-obzor.cz',
+				http: true,
 				address: 'Růžová 1280, 434 01',
 				map: 'Uy2vF1W96fjCKEAb7',
 			},

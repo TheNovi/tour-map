@@ -45,9 +45,9 @@
 			<span class="select-text uppercase">
 				{place.city}
 			</span>
-			<span class="mx-3">
+			<!-- <span class="mx-3">
 				<IconLink href={link('fb.me/e', place.fb)} icon="fa-brands fa-facebook-f" fafw />
-			</span>
+			</span> -->
 		</div>
 		<div>
 			<!-- TODO Add to calendar -->

@@ -13,7 +13,7 @@ const places: { config: Config; places: Place[] } = {
 		{
 			city: 'Plzeň',
 			date: '2022-05-07T19:00:00',
-			fb: '1ENNmAGt0',
+			fb: '1Okvo1uSs',
 			ticket: 'szcwift',
 			club: {
 				name: 'Anděl Café, Music Bar',
@@ -27,7 +27,7 @@ const places: { config: Config; places: Place[] } = {
 		{
 			city: 'Most',
 			date: '2022-05-13T19:00:00',
-			fb: '1ENNmAGt0',
+			fb: '2jbr1EEpl',
 			ticket: 'sziwift',
 			club: {
 				name: 'Nový Obzor Music Arena',
@@ -41,7 +41,7 @@ const places: { config: Config; places: Place[] } = {
 		{
 			city: 'Kolín',
 			date: '2022-05-21T19:00:00',
-			fb: '1ENNmAGt0',
+			fb: '1HwMyGNkn',
 			ticket: 'sznwift',
 			club: {
 				name: 'Staré lázně',
@@ -54,7 +54,7 @@ const places: { config: Config; places: Place[] } = {
 		{
 			city: 'Liberec',
 			date: '2022-05-27T19:00:00',
-			fb: '1ENNmAGt0',
+			fb: '1HW2rRVbg',
 			ticket: 'sztwift',
 			club: {
 				name: 'BUNKR Rock Club',
@@ -67,7 +67,7 @@ const places: { config: Config; places: Place[] } = {
 		{
 			city: 'Třebíč',
 			date: '2022-05-28T19:00:00',
-			fb: '1ENNmAGt0',
+			fb: '33k54DSpM',
 			ticket: 'szuwift',
 			club: {
 				name: 'ROXY Club Třebíč',
@@ -80,7 +80,7 @@ const places: { config: Config; places: Place[] } = {
 		{
 			city: 'České Budějovice',
 			date: '2022-06-03T19:00:00',
-			fb: '1ENNmAGt0',
+			fb: '2avMC37VT',
 			ticket: 'szvwift',
 			club: {
 				name: 'MC Fabrika',
@@ -93,7 +93,7 @@ const places: { config: Config; places: Place[] } = {
 		{
 			city: 'Pardubice',
 			date: '2022-06-04T19:00:00',
-			fb: '1ENNmAGt0',
+			fb: '2B650IPEH',
 			ticket: 'szwwift',
 			club: {
 				name: 'Music club Žlutý pes',
@@ -104,9 +104,9 @@ const places: { config: Config; places: Place[] } = {
 			position: { x: 52, y: 35 },
 		},
 		{
-			city: 'Jablůnkov',
+			city: 'Jablunkov',
 			date: '2022-06-11T19:00:00',
-			fb: '1ENNmAGt0',
+			fb: '19D2WMkTV',
 			ticket: 'szxwift',
 			club: {
 				name: 'Rock Cafe Southock',

@@ -35,12 +35,12 @@
 					{place.club.address}
 				</a>
 			</div>
-			<!-- <div>
+			<div>
 				<span class="fa-brands fa-facebook fa-fw icon" />
 				<a href={link('fb.me/e', place.fb)} target="_blank" rel="noopener noreferrer">
 					Facebook event
 				</a>
-			</div> -->
+			</div>
 			<div class="flex-grow" />
 			<div class="flex justify-center">
 				<a

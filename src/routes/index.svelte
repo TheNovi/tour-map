@@ -35,13 +35,10 @@
 	<meta property="og:description" content={desc} />
 </svelte:head>
 
-<div class="md:h-screen">
+<div class="md:min-h-screen flex flex-col">
 	<Header {title} />
-	<div class="hidden md:flex flex-col h-full">
-		<Map class="flex-grow px-32 text-xs lg:text-base" />
-		<!-- TODO Bouncing arrow -->
-		<!-- <div class="w-full text-center py-5">More...</div> -->
-	</div>
+	<Map class="hidden md:flex flex-col flex-grow px-32 text-xs lg:text-base" />
+	<!-- TODO Bouncing arrow -->
 </div>
 <Catalog />
 <div class="flex flex-row p-1 text-xs">

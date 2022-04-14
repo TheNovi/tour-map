@@ -1,12 +1,11 @@
-import type { Config, Place } from '../model'
-
+import type { Config, Place } from '../model' 
 const places: { config: Config; places: Place[] } = {
 	config: {
 		url: {
 			tickets: {
 				prefix: 'goout.net/en/deethane',
 			},
-			songList: '2UlL9D1myVmmct9U16kwzJ',
+			songList: '3OaxLvI',
 		},
 	},
 	places: [

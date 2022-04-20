@@ -1,4 +1,4 @@
-import type { Config, Place } from '../model' 
+import type { Config, Place } from '../model'
 const places: { config: Config; places: Place[] } = {
 	config: {
 		url: {
@@ -39,7 +39,7 @@ const places: { config: Config; places: Place[] } = {
 		},
 		{
 			city: 'Kolín',
-			date: '2022-05-21T19:00:00',
+			date: '2022-05-21T21:00:00',
 			fb: '1HwMyGNkn',
 			ticket: 'sznwift',
 			club: {
@@ -52,7 +52,7 @@ const places: { config: Config; places: Place[] } = {
 		},
 		{
 			city: 'Liberec',
-			date: '2022-05-27T19:00:00',
+			date: '2022-05-27T20:00:00',
 			fb: '1HW2rRVbg',
 			ticket: 'sztwift',
 			club: {
@@ -65,7 +65,7 @@ const places: { config: Config; places: Place[] } = {
 		},
 		{
 			city: 'Třebíč',
-			date: '2022-05-28T19:00:00',
+			date: '2022-05-28T20:00:00',
 			fb: '33k54DSpM',
 			ticket: 'szuwift',
 			club: {

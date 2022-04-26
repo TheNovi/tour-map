@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Catalog from '$lib/Catalog.svelte'
+	import PartnerLogo from '$lib/components/PartnerLogo.svelte'
 	import Header from '$lib/Header.svelte'
 	import Map from '$lib/Map.svelte'
 
@@ -41,6 +42,26 @@
 	<!-- TODO Bouncing arrow -->
 </div>
 <Catalog />
+<div class="flex flex-wrap justify-around my-4">
+	<PartnerLogo
+		title="Ve spolupráci"
+		src="/champShip.png"
+		alt="Championship Music"
+		href="https://championship.cz"
+	/>
+	<PartnerLogo
+		title="Partner"
+		src="/wows.png"
+		alt="World of Warships"
+		href="https://wo.ws/3LgeVBP"
+	/>
+	<PartnerLogo
+		title="Mediální partner"
+		src="/reflex.png"
+		alt="Časopis Reflex"
+		href="https://reflex.cz/"
+	/>
+</div>
 <div class="flex flex-row p-1 text-xs">
 	<span>For any info, contact: <a href="mailto:welfarecz@gmail.com">welfarecz@gmail.com</a></span>
 	<div class="flex-grow" />

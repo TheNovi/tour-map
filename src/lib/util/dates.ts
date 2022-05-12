@@ -15,5 +15,7 @@ export function f(date: string) {
 }
 
 export function isOld(place: Place): boolean {
-	return today > new Date(place.date)
+	const d = new Date(place.date)
+	d.setHours(d.getHours() + 2)
+	return today > d
 }

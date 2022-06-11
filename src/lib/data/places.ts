@@ -104,7 +104,7 @@ const places: { config: Config; places: Place[] } = {
 		},
 		{
 			city: 'Jablunkov',
-			date: '2022-06-11T19:00:00',
+			date: '2022-06-11T20:00:00',
 			fb: '19D2WMkTV',
 			ticket: 'szxwift',
 			club: {

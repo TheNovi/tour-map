@@ -1,26 +1,25 @@
 <script lang="ts">
-	import { fade } from 'svelte/transition'
-	import IconLink from './components/IconLink.svelte'
-	import type { Config, Place } from './model'
-	import { f, isOld } from './util/dates'
-	import link from './util/link'
+	import IconLink from '@components/IconLink.svelte';
+	import { fade } from 'svelte/transition';
+	import type { Config, Place } from '~/env';
+	import { f, isOld, link } from '~/util';
 
 	//FIXME Svelte transitions add empty style to head every time triggered
 
-	export let place: Place
-	export let config: Config
+	export let place: Place;
+	export let config: Config;
 
-	$: old = isOld(place)
+	$: old = isOld(place);
 
 	const mouseenter = () => {
-		hover = true
-	}
+		hover = true;
+	};
 
 	const mouseleave = () => {
-		hover = false
-	}
+		hover = false;
+	};
 
-	let hover = false
+	let hover = false;
 </script>
 
 <div

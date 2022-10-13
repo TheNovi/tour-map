@@ -1,9 +1,9 @@
 <script lang="ts">
-	import IconLink from './components/IconLink.svelte'
-	import link from './util/link'
-	import places from './data/places'
+	import IconLink from '@components/IconLink.svelte';
+	import { link } from '~/util';
+	import places from '~/data/places';
 
-	export let title
+	export let title: string;
 </script>
 
 <div class="w-full text-lg md:text-2xl shadow-md py-2 px-5 flex items-center gap-3">

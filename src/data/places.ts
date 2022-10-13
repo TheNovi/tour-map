@@ -1,4 +1,4 @@
-import type { Config, Place } from '../model'
+import type { Config, Place } from '~/env';
 const places: { config: Config; places: Place[] } = {
 	config: {
 		url: {
@@ -116,6 +116,6 @@ const places: { config: Config; places: Place[] } = {
 			position: { x: 88, y: 52 },
 		},
 	],
-}
+};
 
-export default places
+export default places;

@@ -1,9 +1,11 @@
 <script lang="ts">
-	import places from '$lib/data/places'
-	import Marker from '$lib/Marker.svelte'
+	import places from '~/data/places';
+	import Marker from '@components/Marker.svelte';
 </script>
 
-<div class={`flex flex-col shrink-0 items-center justify-center ${$$restProps.class}`}>
+<div
+	class="hidden md:flex flex-grow flex-col shrink-0 items-center justify-center px-32 text-xs lg:text-base"
+>
 	<div class="relative overflow-visible">
 		{#each places.places as place}
 			<Marker {place} config={places.config} />

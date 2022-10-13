@@ -1,0 +1,48 @@
+---
+import '../app.pcss';
+
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props as Props;
+const desc =
+	'Interaktivní mapa se zastávkami Tour jak má BEAT. Klikni pro podrobné informace o jednotlivých městech.';
+const img = 'https://deethanetour.cz/cover1.jpg';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="favicon.png" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+		/>
+		<link rel="stylesheet" href="https://api.fontshare.com/css?f[]=general-sans@300&display=swap" />
+		<meta name="viewport" content="width=device-width" />
+		<title>{title}</title>
+		<meta name="apple-mobile-web-app-title" content={title} />
+		<meta name="application-name" content={title} />
+		<meta name="theme-color" content="#ffffff" />
+		<meta name="description" content={desc} />
+		<meta itemprop="name" content={title} />
+		<meta itemprop="description" content={desc} />
+		<meta itemprop="image" content={img} />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@realdeethane" />
+		<meta name="twitter:title" content={title} />
+		<meta name="twitter:description" content={desc} />
+		<meta name="twitter:creator" content="@TheN0vi" />
+		<meta name="twitter:image" content={img} />
+		<meta name="og:image" content={img} />
+		<meta name="og:image:secure_url" content={img} />
+		<meta name="image" property="og:image" content={img} />
+		<meta property="og:site_name" content={title} />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={desc} />
+	</head>
+	<body>
+		<div><slot /></div>
+	</body>
+</html>

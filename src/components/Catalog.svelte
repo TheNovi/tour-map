@@ -1,7 +1,6 @@
 <script lang="ts">
-	import places from './data/places'
-	import { f, isOld } from './util/dates'
-	import link from './util/link'
+	import places from '~/data/places';
+	import { f, isOld, link } from '~/util';
 
 	//TODO Better facebook event
 </script>
